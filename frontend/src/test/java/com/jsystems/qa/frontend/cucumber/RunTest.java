@@ -11,10 +11,10 @@ import org.junit.runner.RunWith;
         glue = "classpath:com.jsystems.qa.frontend.cucumber",
         plugin = {"html:target/cucumber-html-report", "rerun:target/rerun.txt"},
         tags = {
-//                "@wordpress",
-//                "@login",
-//                "@userProfile",
-                "@notification"
+                "@wordpress",
+                "@login",
+                "@userProfile",
+        //        "@notification"
         }
 )
 public class RunTest {
